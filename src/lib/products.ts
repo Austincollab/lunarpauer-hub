@@ -1,0 +1,7 @@
+export type Product = { name: string; glyph: string; description: string; creator: string; category: string; stack: string; platform: string; metric: string; action: string };
+export const products: Product[] = [
+  { name: "Jarvis Desk", glyph: "J", description: "Your personal AI workspace for notes, tasks, and focused decisions.", creator: "@northstar", category: "Productivity", stack: "React + Gemini", platform: "Web", metric: "Demo · 1.2k tries", action: "Try demo" },
+  { name: "FarmKart", glyph: "F", description: "Simple planning and market tools designed for modern farmers.", creator: "@fieldlabs", category: "Utility", stack: "Flutter + AI", platform: "Android", metric: "Demo · 840 installs", action: "View build" },
+  { name: "Wardrobe AI", glyph: "W", description: "AI-powered outfit discovery built around what you already own.", creator: "@threadline", category: "Lifestyle", stack: "Vision + Next", platform: "iOS / Web", metric: "Demo · 620 tries", action: "Try demo" },
+  { name: "FocusFlow", glyph: "F²", description: "A minimalist productivity system that makes deep work visible.", creator: "@quietbuild", category: "Focus", stack: "Tauri + Rust", platform: "macOS", metric: "Demo · 390 downloads", action: "View build" },
+];
